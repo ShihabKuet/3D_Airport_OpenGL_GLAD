@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0987e666-11ed-46a8-9759-5a0985e006b5}</ProjectGuid>
+    <RootNamespace>skyboxOL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>3D_AIRPORT_KUET</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\opengl\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\opengl\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\glad.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BezierCurve.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="cube.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="hexagon.h" />
+    <ClInclude Include="HexagonAdvanced.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="PlaneHand.h" />
+    <ClInclude Include="point_light.h" />
+    <ClInclude Include="shader_m.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="triangle3d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Airplane_body_diff.jpg" />
+    <Image Include="airport_grass2.jpg" />
+    <Image Include="back.jpg" />
+    <Image Include="blending_transparent_window.png" />
+    <Image Include="bottom.jpg" />
+    <Image Include="brick.jpg" />
+    <Image Include="control_tower_gf.jpg" />
+    <Image Include="control_tower_sf.jpg" />
+    <Image Include="Daylight Box_Back.bmp" />
+    <Image Include="Daylight Box_Back_Night.jpg" />
+    <Image Include="Daylight Box_Bottom.bmp" />
+    <Image Include="Daylight Box_Bottom_Night.jpg" />
+    <Image Include="Daylight Box_Front.bmp" />
+    <Image Include="Daylight Box_Front_Anim.gif" />
+    <Image Include="Daylight Box_Front_Night.jpg" />
+    <Image Include="Daylight Box_Left.bmp" />
+    <Image Include="Daylight Box_Left_Night.jpg" />
+    <Image Include="Daylight Box_Right.bmp" />
+    <Image Include="Daylight Box_Right_Night.jpg" />
+    <Image Include="Daylight Box_Top.bmp" />
+    <Image Include="Daylight Box_Top_Night.jpg" />
+    <Image Include="demo_image.jpg" />
+    <Image Include="dish_antenna.jpg" />
+    <Image Include="floor_road.jpg" />
+    <Image Include="front.jpg" />
+    <Image Include="frustum_texture.jpg" />
+    <Image Include="helipad.jpg" />
+    <Image Include="Image.jpg" />
+    <Image Include="left.jpg" />
+    <Image Include="pillar.jpg" />
+    <Image Include="planewing.jpg" />
+    <Image Include="plane_black_glass.jpg" />
+    <Image Include="plane_body.jpg" />
+    <Image Include="plane_body_gradient.jpg" />
+    <Image Include="plane_tail.jpg" />
+    <Image Include="plane_wheel.jpg" />
+    <Image Include="right.jpg" />
+    <Image Include="road.jpg" />
+    <Image Include="road_texture.jpg" />
+    <Image Include="signboard.jpg" />
+    <Image Include="signboard_ct.jpg" />
+    <Image Include="tiles_floor.jpg" />
+    <Image Include="top.jpg" />
+    <Image Include="wall.jpg" />
+    <Image Include="wall_border.jpg" />
+    <Image Include="wall_kuet.jpg" />
+    <Image Include="window.jpg" />
+    <Image Include="window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="6.1.cubemaps.fs" />
+    <None Include="6.1.cubemaps.vs" />
+    <None Include="6.1.skybox.fs" />
+    <None Include="6.1.skybox.vs" />
+    <None Include="fragmentShader.fs" />
+    <None Include="fragmentShaderForBlending.fs" />
+    <None Include="fragmentShaderUniqueColor.fs" />
+    <None Include="LightingShaderWithTexture.fs" />
+    <None Include="LightingShaderWithTexture.vs" />
+    <None Include="model_loading.fs" />
+    <None Include="model_loading.vs" />
+    <None Include="vertexShader.vs" />
+    <None Include="vertexShaderForBlending.vs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

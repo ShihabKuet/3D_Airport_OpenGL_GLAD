@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="point_light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hexagon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HexagonAdvanced.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneHand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Image.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="airport_grass2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="window.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="brick.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall_kuet.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Top.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Front.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Front_Anim.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="helipad.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="floor_road.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="signboard.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road_texture.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall_border.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Back_Night.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Bottom_Night.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Front_Night.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Left_Night.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Right_Night.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daylight Box_Top_Night.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="planewing.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="blending_transparent_window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Airplane_body_diff.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="demo_image.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plane_body.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plane_tail.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="control_tower_gf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="control_tower_sf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="signboard_ct.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="frustum_texture.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dish_antenna.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plane_body_gradient.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plane_wheel.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plane_black_glass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pillar.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tiles_floor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="6.1.cubemaps.vs" />
+    <None Include="6.1.cubemaps.fs" />
+    <None Include="6.1.skybox.fs" />
+    <None Include="6.1.skybox.vs" />
+    <None Include="LightingShaderWithTexture.vs" />
+    <None Include="LightingShaderWithTexture.fs" />
+    <None Include="vertexShader.vs" />
+    <None Include="fragmentShader.fs" />
+    <None Include="model_loading.vs" />
+    <None Include="model_loading.fs" />
+    <None Include="fragmentShaderUniqueColor.fs" />
+    <None Include="vertexShaderForBlending.vs" />
+    <None Include="fragmentShaderForBlending.fs" />
+  </ItemGroup>
+</Project>
